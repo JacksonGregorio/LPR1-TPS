@@ -15,7 +15,7 @@ public class javaTP01 {
         do {
             System.out.println("Digite o número do exercício que deseja executar:");
             opcao = scanner.nextInt();
-    
+
             switch (opcao) {
             case 1:
             TP01Ex01.ex01();

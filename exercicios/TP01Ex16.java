@@ -7,7 +7,7 @@ public class TP01Ex16 {
      public static void ex16() {
         Scanner scanner = new Scanner(System.in);
     
-        System.out.println("Digite o valor de um ângulo em graus:");
+        System.out.println("digite o valor de um angulo em graus:");
         double anguloGraus = scanner.nextDouble();
     
         double anguloRadianos = Math.toRadians(anguloGraus);

@@ -7,10 +7,10 @@ public class TP01Ex09 {
      public static void ex09() {
         Scanner scanner = new Scanner(System.in);
     
-        System.out.println("Digite o valor da resistência:");
+        System.out.println("Digite o valor da resistencia:");
         double resistencia = scanner.nextDouble();
     
-        System.out.println("Digite o valor da corrente elétrica:");
+        System.out.println("Digite o valor da corrente eletrica:");
         double corrente = scanner.nextDouble();
     
         double tensao = resistencia * corrente;

@@ -17,7 +17,7 @@ public class TP01Ex14 {
         double volumeCubo = Math.pow(aresta, 3);
         double volumeLivre = volumeCubo - volumeEsfera;
     
-        System.out.println("O volume livre no ambiente é: " + volumeLivre);
+        System.out.println("Valor Esfera e cubo respectivamente esfera " + volumeEsfera + " Cubo " + volumeEsfera + "O volume livre no ambiente é: " + volumeLivre);
     }
     
 }
