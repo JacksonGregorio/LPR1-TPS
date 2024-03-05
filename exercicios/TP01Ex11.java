@@ -2,7 +2,7 @@ package exercicios;
 
 import java.util.Scanner;
 
-public class Ex11 {
+public class TP01Ex11 {
 
     public static void ex11() {
         Scanner scanner = new Scanner(System.in);
