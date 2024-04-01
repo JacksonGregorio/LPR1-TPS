@@ -1,3 +1,4 @@
+package TP01;
 //Trabalho TP1 - Exercícios de 1 a 18
 
 //Alunos:
@@ -5,7 +6,8 @@
 //Nome: Jackson de Lima Gregório CB3013189
 //Nome: Bruno Souza Da Costa CB3025411
 import java.util.Scanner;
-import exercicios.*;
+
+import TP01.exercicios.*;
 
 public class javaTP01 {
     public static void main(String[] args) {
