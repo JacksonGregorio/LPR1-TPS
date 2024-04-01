@@ -1,6 +1,5 @@
-package TP02.exercicios;
+package exercicios;
 import java.util.Scanner;
-
 public class TP02Ex01 {
 
     //1. Entrar com dois valores via teclado, onde o segundo valor deverá ser maior que o primeiro.

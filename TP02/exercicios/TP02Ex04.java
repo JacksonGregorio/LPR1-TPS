@@ -1,4 +1,4 @@
-package TP02.exercicios;
+package exercicios;
 
 import java.util.Scanner;
 

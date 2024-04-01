@@ -1,5 +1,5 @@
 import java.util.Scanner;
-import TP02.exercicios.*;
+import exercicios.*;
 
 public class javaTP02 {
 
