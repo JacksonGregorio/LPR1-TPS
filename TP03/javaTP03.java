@@ -23,31 +23,49 @@ public class javaTP03 {
 
             switch (opcao) {
                 case 1:
+                    System.out.println("------------------");
                     hora.setHora();
+                    System.out.println("------------------");
                     break;
                 case 2:
+                    System.out.println("------------------");
                     hora.setMin();
+                    System.out.println("------------------");
                     break;
                 case 3:
+                    System.out.println("------------------");
                     hora.setSeg();
+                    System.out.println("------------------");
                     break;
                 case 4:
+                    System.out.println("------------------");
                     System.out.println("Hora: " + hora.getHora());
+                    System.out.println("------------------");
                     break;
                 case 5:
+                    System.out.println("------------------");
                     System.out.println("Minuto: " + hora.getMin());
+                    System.out.println("------------------");
                     break;
                 case 6:
+                    System.out.println("------------------");
                     System.out.println("Segundo: " + hora.getSeg());
+                    System.out.println("------------------");
                     break;
                 case 7:
+                    System.out.println("------------------");
                     System.out.println("Hora no formato hh:mm:ss: " + hora.getHora1());
+                    System.out.println("------------------");
                     break;
                 case 8:
+                    System.out.println("------------------");
                     System.out.println("Hora no formato hh:mm:ss AM/PM: " + hora.getHora2());
+                    System.out.println("------------------");
                     break;
                 case 9:
+                    System.out.println("------------------");
                     System.out.println("Total de segundos: " + hora.getSegundos());
+                    System.out.println("------------------");
                     break;
                 case 10:
                     System.out.println("Saindo...");
@@ -96,6 +114,7 @@ public class javaTP03 {
             System.out.println("Digite a hora (0-23):");
             this.hora = scanner.nextInt();
         } while (this.hora < 0 || this.hora > 23);
+        System.out.println("Hora setada com sucesso!");
     }
 
     public void setMin() {
@@ -104,6 +123,7 @@ public class javaTP03 {
             System.out.println("Digite os minutos (0-59):");
             this.min = scanner.nextInt();
         } while (this.min < 0 || this.min > 59);
+        System.out.println("Minuto setado com sucesso!");
     }
 
     public void setSeg() {
@@ -112,6 +132,7 @@ public class javaTP03 {
             System.out.println("Digite os segundos (0-59):");
             this.seg = scanner.nextInt();
         } while (this.seg < 0 || this.seg > 59);
+        System.out.println("Segundo setado com sucesso!");
     }
 
     public int getHora() {
@@ -150,6 +171,5 @@ public class javaTP03 {
     public int getSegundos() {
         return this.hora * 3600 + this.min * 60 + this.seg;
     }
-
     
 }
