@@ -1,6 +1,9 @@
 import java.util.Scanner;
 import exercicios.*;
 
+//jackson de lima gregorio CB:3013189
+//Bruno sousa da costa CB:3025411
+
 public class javaTP02 {
 
     public static void main(String[] args) {
