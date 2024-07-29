@@ -2,6 +2,9 @@ package TP04;
 
 import java.util.Scanner;
 
+//jackson de lima gregório 
+
+//Bruno Souza
 public class javaTP04 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -25,7 +28,7 @@ public class javaTP04 {
         while (true) {
             System.out.println("Escolha uma opção:");
             System.out.println("1. Mostrar data no formato dd/mes/aaaa");
-            System.out.println("2. Mostrar data no formato dd/mes/aaaa");
+            System.out.println("2. Mostrar data no formato dd/mes extenso/aaaa");
             System.out.println("3. Verificar se o ano e bissexto");
             System.out.println("4. Calcular dias transcorridos");
             System.out.println("5. Apresentar data atual");
