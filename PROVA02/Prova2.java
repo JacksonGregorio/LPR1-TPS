@@ -1,4 +1,8 @@
 public class Prova2 {
+
+    //Jackson de Lima Gregório
+    
+    //Bruno Souza
     public static void main(String[] args) {
         ConsultaAgendada p1 = new ConsultaAgendada(10, 30, 0, 15, 12, 2022, "Jaquison", "Dr.Tuler De Moraes" );
 
