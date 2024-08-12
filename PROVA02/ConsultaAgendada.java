@@ -13,7 +13,7 @@ public class ConsultaAgendada {
         this.hora = new Hora();
         System.out.println("Por favor, insira o nome do paciente:");
         this.nomePaciente = scanner.nextLine();
-        System.out.println("Por favor, insira o nome do médico:");
+        System.out.println("Por favor, insira o nome do medico:");
         this.nomeMedico = scanner.nextLine();
         quantidade++;
     }
@@ -47,15 +47,34 @@ public class ConsultaAgendada {
     }
 
     public void setData() {
-        this.data = new Data(scanner.nextInt(), scanner.nextInt(), scanner.nextInt());
+        System.out.println("Por favor, insira o dia:");
+        int dia = scanner.nextInt();
+        scanner.nextLine();
+        System.out.println("Por favor, insira o mês:");
+        int mes = scanner.nextInt();
+        scanner.nextLine(); 
+        System.out.println("Por favor, insira o ano:");
+        int ano = scanner.nextInt();
+        scanner.nextLine(); 
+        this.data = new Data(dia, mes, ano);
     }
+    
 
     public void setHora(int a, int b, int c) {
         this.hora = new Hora(a, b, c);
     }
 
     public void setHora() {
-        this.hora = new Hora(scanner.nextInt(), scanner.nextInt(), scanner.nextInt());
+        System.out.println("Por favor, insira a hora:");
+        int hora = scanner.nextInt();
+        scanner.nextLine(); 
+        System.out.println("Por favor, insira os minutos:");
+        int minuto = scanner.nextInt();
+        scanner.nextLine(); 
+        System.out.println("Por favor, insira os segundos:");
+        int segundo = scanner.nextInt();
+        scanner.nextLine(); 
+        this.hora = new Hora(hora, minuto, segundo);
     }
 
     public void setNomePaciente(String p) {
@@ -63,7 +82,7 @@ public class ConsultaAgendada {
     }
 
     public void setNomePaciente() {
-        
+        System.out.println("Por favor, insira o nome do paciente:");
         this.nomePaciente = scanner.nextLine();
     }
 
@@ -72,7 +91,7 @@ public class ConsultaAgendada {
     }
 
     public void setNomeMedico() {
-        
+        System.out.println("Por favor, insira o nome do medico:");
         this.nomeMedico = scanner.nextLine();
     }
 
@@ -95,6 +114,8 @@ public class ConsultaAgendada {
     public String getNomeMedico() {
         return nomeMedico;
     }
+
+    
 
    
 }
