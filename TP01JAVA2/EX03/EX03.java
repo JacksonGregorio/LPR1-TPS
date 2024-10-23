@@ -9,7 +9,7 @@ public class EX03 {
     }
 
     public static void testPerson() {
-        Person person = new Student("Tuller prof", "123 Main St", 1, "Computer Science", 2022, 10000.0);
+        Person person = new Student("Tuller pessoa", "123 Main St", 1, "Computer Science", 2022, 10000.0);
         System.out.println(person.getName());
         System.out.println(person.getAddress());
         System.out.println(person.getId());
@@ -20,7 +20,7 @@ public class EX03 {
     }
     
     public static void testStudent() {
-        Student student = new Student("Tuller prof", "123 Main St", 1, "Computer Science", 2022, 10000.0);
+        Student student = new Student("Tuller student", "123 Main St", 1, "Computer Science", 2022, 10000.0);
         System.out.println(student.getProgram());
         System.out.println(student.getYear());
         System.out.println(student.getFee());
@@ -33,7 +33,7 @@ public class EX03 {
     }
     
     public static void testStaff() {
-        Staff staff = new Staff("Jane Doe", "789 High St", 3, "XYZ School", 50000.0);
+        Staff staff = new Staff("Tuller 01", "789 High St", 3, "XYZ School", 50000.0);
         System.out.println(staff.getSchool());
         System.out.println(staff.getPay());
         staff.setSchool("ABC School");

@@ -105,7 +105,7 @@ class TestAuthor {
         EX01.Author author = new EX01().new Author("Wellington Tuller", "tulermoraes@yaho.com", 'm', 1);
 
         System.out.println(author.toString());
-        author.setEmail("newEmail@example.com");
+        author.setEmail("Jackson@example.com");
         System.out.println("Email atualizado: " + author.getEmail());
 
         System.out.println("Nome: " + author.getName());
@@ -122,9 +122,9 @@ class TestBook {
         authors[0] = new EX01().new Author("Autor 01", "autor01@.com.br", 'm', 1);
         authors[1] = new EX01().new Author("Autor 02", "autor02@com.br", 'f', 2);
 
-        // Declarar e alocar a instância de um book.
-        EX01.Book testeBook = new EX01().new Book("Java for Dummy", authors, 19.99, 99, 1);
-        System.out.println(testeBook); // toString()
+
+        EX01.Book testeBook = new EX01().new Book("Java Pra burro", authors, 19.99, 99, 1);
+        System.out.println(testeBook); 
     }
 }
 
