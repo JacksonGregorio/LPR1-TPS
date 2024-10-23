@@ -8,6 +8,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
+//Jackson de lima gregório 
+
+//Sergio wuu
+
 public class TPALUNO extends JFrame {
     private JTextField nomeField;
     private JTextField enderecoField;
@@ -112,7 +116,6 @@ public class TPALUNO extends JFrame {
         });
     }
 
-    // Classe Aluno
     static class Aluno {
         private String endereco;
         private int idade;
