@@ -52,10 +52,7 @@ public class FormPessoav3 extends JFrame {
                     char sexo = masculinoRadioButton.isSelected() ? 'M' : 'F';
                     int idade = Integer.parseInt(idadeField.getText());
 
-                    umaPessoa = new Pessoa();
-                    umaPessoa.setNome(nome);
-                    umaPessoa.setSexo(sexo);
-                    umaPessoa.setIdade(idade);
+                    umaPessoa = new Pessoa(nome, sexo, idade);
 
                     numeroField.setText(String.valueOf(Pessoa.getKp()));
                 } catch (Exception ex) {
