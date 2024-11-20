@@ -44,10 +44,7 @@ public class FormPessoav2 extends JFrame {
                     char sexo = sexoComboBox.getSelectedItem().toString().charAt(0);
                     int idade = Integer.parseInt(idadeField.getText());
 
-                    umaPessoa = new Pessoa();
-                    umaPessoa.setNome(nome);
-                    umaPessoa.setSexo(sexo);
-                    umaPessoa.setIdade(idade);
+                    umaPessoa = new Pessoa(nome, sexo, idade);
 
                     numeroField.setText(String.valueOf(Pessoa.getKp()));
                 } catch (Exception ex) {
