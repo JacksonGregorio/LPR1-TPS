@@ -44,10 +44,7 @@ public class FormPessoa extends JFrame {
                     char sexo = sexoField.getText().charAt(0);
                     int idade = Integer.parseInt(idadeField.getText());
 
-                    umaPessoa = new Pessoa();
-                    umaPessoa.setNome(nome);
-                    umaPessoa.setSexo(sexo);
-                    umaPessoa.setIdade(idade);
+                    umaPessoa = new Pessoa(nome, sexo, idade);
 
                     numeroField.setText(String.valueOf(Pessoa.getKp()));
                 } catch (Exception ex) {
@@ -92,12 +89,12 @@ class Pessoa {
     private int idade;
 
     public Pessoa() {
-        kp++;
+        // Construtor padrão não incrementa kp
     }
 
     public Pessoa(String nome, char sexo, int idade) {
         this.nome = nome;
-        this.sexo = sexo;
+        setSexo(sexo); // Valida o sexo antes de incrementar kp
         this.idade = idade;
         kp++;
     }
